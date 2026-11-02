@@ -163,6 +163,7 @@ body {
 .cart{
     color: white;
     display: flex;
+    position: relative;
 }
 .cart_quantity_count{
     margin-top: 16px;
@@ -249,4 +250,12 @@ body {
       .ul div {
         text-align: center; /* Align text to the center */
       }
+  }
+
+  .total-quantity {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    font-size: 2rem
   }
